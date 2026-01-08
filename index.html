@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стоп-Мошенник | Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <span>Стоп-Мошенник</span>
+                </div>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Главная</a>
+                <a href="protection.html" class="nav-link">Защита</a>
+                <a href="help.html" class="nav-link">Помощь</a>
+                <a href="base.html" class="nav-link">База знаний</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ГЕРОЙ -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Ваша безопасность — в ваших руках</h1>
+            <p class="hero-subtitle">Научитесь распознавать обман за 5 минут. Простой ресурс для детей, родителей и пенсионеров.</p>
+            
+            <div class="hero-cards">
+                <a href="protection.html" class="hero-card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Хочу защититься</h3>
+                    <p>Узнайте о схемах мошенников и как их избежать</p>
+                </a>
+                
+                <a href="help.html" class="hero-card">
+                    <div class="card-icon">🚨</div>
+                    <h3>Срочно нужна помощь!</h3>
+                    <p>Что делать, если вы уже стали жертвой</p>
+                </a>
+                
+                <a href="base.html" class="hero-card">
+                    <div class="card-icon">🔍</div>
+                    <h3>Проверить информацию</h3>
+                    <p>База мошеннических схем, это надо знать</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- АКТУАЛЬНЫЕ СХЕМЫ -->
+    <section class="schemes">
+        <div class="container">
+            <h2 class="section-title">Топ-3 схемы сегодня</h2>
+            
+            <div class="scheme-cards">
+                <div class="scheme-card">
+                    <h3>Телефонный террор: "Ваша карта заблокирована"</h3>
+                    <p>Звонят от имени банка, говорят о попытке списания и просят назвать код из SMS.</p>
+                    <a href="base.html#article-phone-blocked" class="scheme-link">Подробнее в базе знаний →</a>
+                </div>
+                
+                <div class="scheme-card">
+                    <h3>Соцсети: ваш "друг" просит денег</h3>
+                    <p>Взламывают аккаунт знакомого и пишут сообщение с просьбой срочно перевести деньги.</p>
+                    <a href="base.html#article-social-money" class="scheme-link">Подробнее в базе знаний →</a>
+                </div>
+                
+                <div class="scheme-card">
+                    <h3>Вы выиграли айфон! Нажмите ссылку</h3>
+                    <p>Приходят SMS или письма о выигрыше, ведущие на фишинговые сайты.</p>
+                    <a href="base.html#article-win-iphone" class="scheme-link">Подробнее в базе знаний →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> Стоп-Мошенник. Информационный ресурс по борьбе с мошенничеством.</p>
+            <p>Контакты для СМИ: ketko.matvei@yandex.ru</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- КНОПКА "НАВЕРХ" -->
+    <button class="back-to-top" id="backToTop" aria-label="Вернуться наверх">
+        ↑
+    </button>
+</body>
+</html>

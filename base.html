@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стоп-Мошенник | База знаний</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-base">
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <span>Стоп-Мошенник</span>
+                </div>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="protection.html" class="nav-link">Защита</a>
+                <a href="help.html" class="nav-link">Помощь</a>
+                <a href="base.html" class="nav-link active">База знаний</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ -->
+    <main class="container">
+        <h1 class="page-title">База знаний о мошеннических схемах</h1>
+        <p class="page-subtitle">Изучите схемы мошенничества и научитесь их распознавать. Используйте фильтр для поиска.</p>
+        
+        <!-- ФИЛЬТР -->
+        <div class="filter-section">
+            <h2 class="filter-title">Выберите категорию:</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Все схемы</button>
+                <button class="filter-btn" data-filter="students">Для студентов</button>
+                <button class="filter-btn" data-filter="school">Для школьников</button>
+                <button class="filter-btn" data-filter="pensioners">Для пенсионеров</button>
+                <button class="filter-btn" data-filter="phone">Телефонные звонки</button>
+                <button class="filter-btn" data-filter="internet">Интернет-мошенничество</button>
+                <button class="filter-btn" data-filter="cards">Банковские карты</button>
+                <button class="filter-btn" data-filter="jkh">ЖКХ и обман у дома</button>
+            </div>
+        </div>
+        
+        <!-- КАРТОЧКИ СХЕМ -->
+        <div class="articles-container" id="articlesContainer">
+            
+            <!-- СТАТЬЯ 1 -->
+            <article class="article-card" data-tags="students phone">
+                <h3 class="article-title">Мошенничество с арендой жилья для студентов</h3>
+                <p class="article-excerpt">Студентам предлагают квартиру по низкой цене, просят предоплату на карту физического лица, после чего исчезают.</p>
+                <button class="read-more-btn">Читать полностью</button>
+                
+                <div class="article-full">
+                    <!-- ПОЛНЫЙ ТЕКСТ СТАТЬИ БУДЕТ ЗДЕСЬ -->
+                    <p>Содержание статьи появится позже.</p>
+                </div>
+            </article>
+            
+            <!-- СТАТЬЯ 2 -->
+            <article class="article-card" data-tags="pensioners jkh">
+                <h3 class="article-title">Ложные сантехники и электрики</h3>
+                <p class="article-excerpt">К пенсионерам приходят люди в форме, говорят о проверке труб или электропроводки, выявляют "опасные неисправности" и требуют деньги за ремонт.</p>
+                <button class="read-more-btn">Читать полностью</button>
+                
+                <div class="article-full">
+                    <p>Содержание статьи появится позже.</p>
+                </div>
+            </article>
+            
+            <!-- СТАТЬЯ 3 -->
+            <article class="article-card" data-tags="school internet">
+                <h3 class="article-title">Продажа игровых предметов и доната</h3>
+                <p class="article-excerpt">Школьникам предлагают купить игровую валюту, скины или аккаунты по низкой цене. После оплаты доступ не предоставляют.</p>
+                <button class="read-more-btn">Читать полностью</button>
+                
+                <div class="article-full">
+                    <p>Содержание статьи появится позже.</p>
+                </div>
+            </article>
+            
+            <!-- СТАТЬЯ 4 -->
+            <article class="article-card" data-tags="phone cards" id="article-phone-blocked">
+                <h3 class="article-title">Звонок из банка: "Ваша карта заблокирована"</h3>
+                <p class="article-excerpt">Звонят от имени службы безопасности банка, сообщают о подозрительных операциях и просят назвать код из SMS для "блокировки".</p>
+                <button class="read-more-btn">Читать полностью</button>
+                
+                <div class="article-full">
+                    <p>Содержание статьи появится позже.</p>
+                </div>
+            </article>
+            
+            <!-- СТАТЬЯ 5 -->
+            <article class="article-card" data-tags="internet cards">
+                <h3 class="article-title">Фишинговые сайты банков</h3>
+                <p class="article-excerpt">Приходят письма или SMS со ссылкой на поддельный сайт банка, где просят ввести логин, пароль и данные карты.</p>
+                <button class="read-more-btn">Читать полностью</button>
+                
+                <div class="article-full">
+                    <p>Содержание статьи появится позже.</p>
+                </div>
+            </article>
+            
+            <!-- СТАТЬЯ 6 -->
+            <article class="article-card" data-tags="students internet">
+                <h3 class="article-title">Фальшивые курсовые и дипломы на заказ</h3>
+                <p class="article-excerpt">Студентам предлагают написать курсовую или дипломную работу за 1-2 дня. После предоплаты исполнитель исчезает.</p>
+                <button class="read-more-btn">Читать полностью</button>
+                
+                <div class="article-full">
+                    <p>Содержание статьи появится позже.</p>
+                </div>
+            </article>
+
+            <!-- СТАТЬЯ 7 (из главной - Соцсети) -->
+            <article class="article-card" data-tags="internet social" id="article-social-money">
+                <h3 class="article-title">Соцсети: ваш "друг" просит денег</h3>
+                <p class="article-excerpt">Взламывают аккаунт знакомого в социальной сети и пишут сообщение с просьбой срочно перевести деньги на карту или электронный кошелёк.</p>
+                <button class="read-more-btn">Читать полностью</button>
+                
+                <div class="article-full">
+                    <p>Содержание статьи появится позже.</p>
+                </div>
+            </article>
+
+            <!-- СТАТЬЯ 8 (из главной - Выигрыш) -->
+            <article class="article-card" data-tags="internet phone" id="article-win-iphone">
+                <h3 class="article-title">Вы выиграли айфон! Нажмите ссылку</h3>
+                <p class="article-excerpt">Приходят SMS, письма или сообщения в мессенджерах о выигрыше iPhone или другой техники. Ссылка ведёт на фишинговый сайт, где просят данные карты для "отправки приза".</p>
+                <button class="read-more-btn">Читать полностью</button>
+                
+                <div class="article-full">
+                    <p>Содержание статьи появится позже.</p>
+                </div>
+            </article>
+
+        </div>
+        
+        <!-- БЛОК ДОБАВЛЕНИЯ НОВЫХ СТАТЕЙ -->
+        <div class="add-article-note">
+            <h3>База знаний постоянно пополняется</h3>
+            <p>Если вы столкнулись с новой схемой мошенничества — напишите нам на ketko.matvei@yandex.ru</p>
+        </div>
+    </main>
+
+    <!-- ФУТЕР -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> Стоп-Мошенник. Информационный ресурс по борьбе с мошенничеством.</p>
+            <p>Контакты для СМИ: ketko.matvei@yandex.ru</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- КНОПКА "НАВЕРХ" -->
+    <button class="back-to-top" id="backToTop" aria-label="Вернуться наверх">
+        ↑
+    </button>
+</body>
+</html>
